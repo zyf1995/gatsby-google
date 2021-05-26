@@ -1,0 +1,25 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  /* TODO(dbeam): remove this soon. Prefer dir= in HTML. */
+  direction: ltr;
+}
+
+body {
+  font-family: Roboto, 'Segoe UI',Arial,'Microsoft Yahei',sans-serif;
+  font-size: 81.25%;
+}
+
+button {
+  font-family: Roboto, 'Segoe UI',Arial,'Microsoft Yahei',sans-serif;
+}
+
+.logo{
+  margin: 106px 0 0;
+  height: 200px;
+  background: url("/img/google_logo.svg") center no-repeat;
+  background-size: 270px 90px;
+}
